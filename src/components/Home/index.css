@@ -1,87 +1,60 @@
-.home-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  padding-top: 10px;
-  padding-bottom: 50px;
+.home-route-container {
+  flex-grow: 1;
   background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
   background-size: cover;
-  height: 90vh;
+  padding: 50px 25px;
+  color: aliceblue;
 }
 
 @media screen and (min-width: 768px) {
-  .home-container {
-    align-items: flex-start;
-    padding-left: 120px;
+  .home-route-container {
     background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    padding-top: 100px;
+    padding-left: 50px;
   }
 }
 
-.home-content {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  max-width: 1100px;
+.home-route-heading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 600;
+  color: #f1f5f9;
+  max-width: 350px;
 }
 
 @media screen and (min-width: 768px) {
-  .home-content {
-    align-items: flex-start;
-    width: 50%;
+  .home-route-heading {
+    font-size: 65px;
+    max-width: 650px;
   }
 }
 
-.home-heading {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-weight: bold;
-  font-size: 30px;
-  text-align: left;
-  margin-bottom: 5px;
-}
-
-@media screen and (min-width: 768px) {
-  .home-heading {
-    font-size: 62px;
-    text-align: left;
-    line-height: 1.2;
-  }
-}
-
-.home-description {
-  font-family: 'Roboto';
+.home-route-description {
+  max-width: 350px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: Roboto;
   font-size: 14px;
-  line-height: 35px;
-  color: #ffffff;
-  margin-bottom: 0;
-  text-align: left;
+  font-weight: 500;
+  color: #cbd5e1;
 }
 
 @media screen and (min-width: 768px) {
-  .home-description {
-    font-size: 20px;
-    text-align: left;
+  .home-route-description {
+    font-size: 18px;
+    max-width: 650px;
   }
 }
 
-.shop-now-button {
-  font-size: 14px;
-  font-weight: 400;
-  font-family: 'Roboto';
-  color: white;
-  border: none;
+.find-jobs-button {
   padding: 12px 24px;
-  border-radius: 5px;
-  background-color: #4f46e5;
-  margin-top: 20px;
-  outline: none;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #fff;
+  background-color: #6366f1;
   cursor: pointer;
-}
-
-@media screen and (min-width: 768px) {
-  .shop-now-button {
-    width: 150px;
-    font-size: 16px;
-  }
+  border-radius: 8px;
 }
